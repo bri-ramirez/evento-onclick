@@ -1,0 +1,84 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.navbar {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+
+.btn {
+  background-color: blue;
+  border: 2px solid black;
+  color: white;
+  width: 150px;
+  box-shadow: 3px 3px 0px black;
+  padding: 5px 2em;
+}
+
+
+.btn-yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.btn-green{
+  background-color: rgb(129, 201, 129);
+  color: black;
+}
+
+.search{
+  border-radius: 20px;
+  height: 2.5em;
+  padding: 0 1em;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 1em;
+  margin: 1em;
+}
+
+.col-left{
+  flex: 1;
+}
+
+.col-right{
+  flex: 2;
+}
+
+.card {
+  border: 1px solid rgb(112, 108, 108);
+  margin: 1em;
+  min-height: 5em;
+}
+
+.card .btn{
+  margin-top: 1em;
+}
+
+.column1 {
+  flex: 2;
+}
+
+.column2 {
+  flex: 1;
+}

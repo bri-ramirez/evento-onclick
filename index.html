@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>evento-onclick</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-title">Dojonary</h1>
+        <input class="search" type="text" name="search" placeholder="Search">
+        <button class='btn' id="btn-login" onclick="login(this)">Login</button>
+    </nav>
+    <div class="container">
+        <div class="column1">
+
+            <div class="card row">
+                <div class="col col-left">
+                    <h3>Ninja</h3>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    
+                    <button class='btn btn-yellow' id="btn-like" onclick="like()"> 37 likes</button>
+                </div>
+
+                <div class="col col-right">
+                    <p> A <a href="#">programer</a> who brakers down problem with <a href="#">Zen</a> like focus </p>
+                </div>
+            </div>
+
+            <div class="card row">
+                <div class="col col-left">
+                    <h3>Ninja</h3>
+                    <p>noun</p>
+                    <p>Plural: ninjas</p>
+                    
+                    <button class='btn btn-yellow' id="btn-like" onclick="like()"> 37 likes</button>
+                </div>
+
+                <div class="col col-right">
+                    <p> A <a href="#">programer</a> who brakers down problem with <a href="#">Zen</a> like focus </p>
+                </div>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="card col">
+                <h3>Dojonary is defined by you</h3>
+                <button class='btn btn-green' id="btn-definition" onclick="removeBtn(this)">add definition</button>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="eventos.js"></script>
+</body>
+</html>
